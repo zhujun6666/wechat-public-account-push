@@ -692,6 +692,8 @@ export const getAggregatedData = async () => {
       { name: toLowerLine('province'), value: user.province || config.PROVINCE, color: getColor() },
       { name: toLowerLine('city'), value: user.city || config.CITY, color: getColor() },
       { name: toLowerLine('birthdayMessage'), value: birthdayMessage, color: getColor() },
+      { name: toLowerLine('weather'), value: weather, color: getColor() },
+       { name: toLowerLine('constellationFortune'), value:constellationFortune, color: getColor() },
       { name: toLowerLine('noteEn'), value: noteEn, color: getColor() },
       { name: toLowerLine('noteCh'), value: noteCh, color: getColor() },
       { name: toLowerLine('holidaytts'), value: holidaytts, color: getColor() },
