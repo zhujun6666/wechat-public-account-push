@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '07bca70fdb1c454b1346dfbb7999ed3f',
 
   PROVINCE: '江苏',
-  CITY: '无锡市-梁溪区',
+  CITY: '无锡',
   USERS: [
     {
       // 想要发送的人的名字
